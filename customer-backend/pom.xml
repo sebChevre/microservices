@@ -11,19 +11,46 @@
 </parent>
 
 <dependencies>
+
 	<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-web</artifactId>
-</dependency>
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-jersey</artifactId>
-</dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-web</artifactId>
+	</dependency>
+	
 	<dependency>
-			<groupId>ch.sebooom</groupId>
-			<artifactId>spring-test-domain</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-jersey</artifactId>
+	</dependency>
+	
+	<dependency>
+		<groupId>ch.sebooom</groupId>
+		<artifactId>spring-test-domain</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<scope>compile</scope>
+	</dependency>
+	
+	<dependency>
+		<groupId>com.ibm.db2</groupId>
+		<artifactId>db2java</artifactId>
+		<version>1.0.581</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.springframework.boot</groupId>
+	    <artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency>
+	
+	<!-- Hibernate 
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>3.6.7.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>4.3.0.Final</version>
+        </dependency>-->
+	
 </dependencies>
 </project>
